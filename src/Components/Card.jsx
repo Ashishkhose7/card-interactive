@@ -131,7 +131,7 @@ const Card = () => {
         }
     }
     const handlename = (e) => {
-        if(e.target.value.length>4){
+        if(e.target.value.length>2){
             setNameerror("")
             document.getElementById('username').style.borderColor = "#ccc";
         }
